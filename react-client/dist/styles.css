@@ -1,19 +1,47 @@
+body {
+  text-align: center;
+  background-image: radial-gradient(white, rgb(171, 248, 244));
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
   display: block;
-  background-color: black;
-  width: 100%;
-  height: 50px;
+  width: 100vw;
+  height: 5vh;
   color: white;
 }
 
 #headerButtons {
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
   margin: 0;
   padding: 0;
 }
 
-.navButton {
-  float: right;
+.images-container {
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.images-container > img {
+ width: 100%;
+ height: auto;
+ margin: 5% 0% 5% 0%;
+}
+
+
+#app {
+  width: 100%;
+  height: auto;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
 }
 
 footer {
